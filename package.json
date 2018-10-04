@@ -22,14 +22,17 @@
     "url": "https://github.com/zurb/foundation-docs/issues"
   },
   "homepage": "https://github.com/zurb/foundation-docs#readme",
+  "engines": {
+    "node": ">=4"
+  },
   "dependencies": {
     "cheerio": "^0.20.0",
-    "handlebars": "^3.0.1",
+    "handlebars": "^4.0.11",
     "highlight.js": "^9.0.0",
     "inky": "^1.2.6",
     "js-beautify": "^1.6.2",
     "kebab-case": "^1.0.0",
-    "marked": "^0.3.5",
+    "marked": "^0.3.14",
     "mkdirp": "^0.5.1",
     "multiline": "^1.0.2",
     "querystring": "^0.2.0",
@@ -47,13 +50,13 @@
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^3.1.0",
     "mocha": "^2.4.5",
     "motion-ui": "^1.2.2",
-    "node-sass": "^3.4.2",
+    "node-sass": "v4.7.2",
     "panini": "^1.2.0",
     "rimraf": "^2.5.2",
     "striptags": "^2.1.1",
-    "supercollider": "^1.4.1"
+    "supercollider": "^1.4.4"
   }
 }
